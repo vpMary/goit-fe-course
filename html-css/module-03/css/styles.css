@@ -24,7 +24,7 @@ body {
 }
 
 .article {
-  margin-bottom: 35px;
+  margin-top: 35px;
 }
 
 .article img {
@@ -68,8 +68,9 @@ li {
 }
 
 .article-divider {
-  border-top: 2px solid #bdc1ca;
-  padding-bottom: 35px;
+  border-bottom: 2px solid #bdc1ca;
+ /* margin-bottom: 35px;*/
+  padding-bottom: 15px;
 }
 
 .list {
