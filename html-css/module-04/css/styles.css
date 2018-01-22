@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  padding: 230px 0 260px 0;
+  font-family: Arial, sans-serif;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper {
+  width: 1020px;
+  margin: auto;
+  padding: 120px 60px 85px 60px;
+  background-color: #ffffff;
+}
+
+h2 {
+  font-family: "Pathway Gothic One";
+  font-size: 32px;
+  font-weight: normal;
+  color: #263555;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+p {
+  font-size: 13px;
+  color: #4e5050;
+  line-height: 19px;
+}
+
+h3 {
+  font-size: 16px;
+  color: #263555;
+  font-weight: normal;
+  text-align: center;
+}
+
+h4 {
+  font-size: 15px;
+  color: #263555;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.profile-subtitle,
+.offer-subtitle {
+  font-size: 15px;
+  color: #263555;
+  margin-bottom: 10px;
+}
+
+.testimonial-subtitle:first-child {
+  margin-bottom: 0;
+}
+.profile-article img {
+  float: left;
+  margin-right: 20px;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.profile-article {
+  display: inline-block;
+  width: 74%;
+  vertical-align: top;
+  margin-right: 10px;
+  padding-right: 25px;
+}
+
+.principles-list {
+  display: inline-block;
+  width: 24%;
+  vertical-align: top;
+}
+
+.offer-article {
+  display: inline-block;
+  width: 74%;
+  vertical-align: top;
+  margin-right: 10px;
+  padding-right: 25px;
+}
+
+.testimonial {
+  display: inline-block;
+  width: 24%;
+  vertical-align: top;
+}
+
+.testimonial-title {
+  margin-bottom: 0;
+}
+
+.first-block {
+  margin-bottom: 35px;
+}
+
+.second-block {
+  padding-top: 35px;
+}
+
+.divider {
+  border-top: 1px solid #cec8c8;
+}
+
+li {
+  font-size: 15px;
+  color: #263555;
+  margin-bottom: 20px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+.list {
+  list-style-type: none;
+  counter-reset: list;
+}
+
+.list-item::before {
+  counter-increment: list;
+  content: counter(list);
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #34aef5;
+  color: #fefefe;
+  text-align: center;
+  line-height: 25px;
+}
+
+.article {
+  display: inline-block;
+  width: calc(100% - 46px);
+  vertical-align: top;
+}
+
+.offer-list {
+  margin-top: 30px;
+  column-count: 2;
+  line-height: 20px;
+  list-style: none;
+}
+
+.list-element::before {
+  content: "\2192";
+  color: #34aef5;
+  margin-right: 15px;
+}
+
+.testimonial-subtitle {
+  font-size: 15px;
+  color: #263555;
+  border: 1px solid #cec8c8;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 15px 0 20px 0;
+}
+
+.testimonial-subtitle::before {
+  content: "\201C";
+}
+
+.testimonial-subtitle::after {
+  content: "\201D";
+}
+
+.text {
+  text-align: center;
+  margin-top: 10px;
+}
