@@ -1,11 +1,12 @@
-.wrapper {
+  .top-wrapper {
     width: 1600px;
     margin: auto;
-    /*background-color: #440a0a;*/
   }
   
   .header {
-    padding: 40px 245px;
+    padding: 40px 0;
+    width: 1110px;
+    margin: auto;
     text-align: justify;
     font-size: 0;
   }
@@ -66,6 +67,8 @@
   }
   
   .bottom-wrapper {
+    width: 1600px;
+    margin: auto;
     padding: 100px 0;
     background-color: #e9f0fd;
   }
@@ -77,10 +80,15 @@
   }
   
   .carousel {
-    width: 1600px;
     margin: auto;
   }
   
+  .slick-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
   .slick-arrow {
     border: 0;
     position: absolute;
@@ -145,6 +153,11 @@
     line-height: 54px;
   }
   
+  .collection {
+    width: 1110px;
+    margin: auto;
+  }
+
   .collection-title {
     color: #515151;
     font-family: Roboto, sans-serif;
@@ -168,10 +181,12 @@
   
   .collection-list {
     text-align: center;
+    font-size: 0;
   }
   
   .collection-list-item {
     display: inline-block;
+    width: 255px;
     margin-right: 30px;
   }
   
@@ -181,7 +196,6 @@
   
   .card {
     position: relative;
-    width: 330px;
     background-color: #ffffff;
   }
   
