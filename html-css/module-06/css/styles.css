@@ -130,27 +130,27 @@ img {
 }
 
 .alarm::before {
-    background-image: url('/images/icons/alarm.png');
+    background-image: url('../images/icons/alarm.png');
 }
 
 .book::before {
-    background-image: url('/images/icons/book.png');
+    background-image: url('../images/icons/book.png');
 }
 
 .line::before {
-    background-image: url('/images/icons/line.png');
+    background-image: url('../images/icons/line.png');
 }
 
 .home::before {
-    background-image: url('/images/icons/home.png');
+    background-image: url('../images/icons/home.png');
 }
 
 .computer::before {
-    background-image: url('/images/icons/computer.png');
+    background-image: url('../images/icons/computer.png');
 }
 
 .image::before {
-    background-image: url('/images/icons/image.png');
+    background-image: url('../images/icons/image.png');
 }
 
 .service-post {
@@ -283,25 +283,25 @@ img {
 }
 
 .facebook-icon {
-    background-image: url("/images/icons/facebook.png");
+    background-image: url("../images/icons/facebook.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .twitter-icon {
-    background-image: url("/images/icons/twitter.png");
+    background-image: url("../images/icons/twitter.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .pinterest-icon {
-    background-image: url("/images/icons/pinterest.png");
+    background-image: url("../images/icons/pinterest.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .instagram-icon {
-    background-image: url("/images/icons/instagram.png");
+    background-image: url("../images/icons/instagram.png");
     background-repeat: no-repeat;
     background-position: center;
 }
