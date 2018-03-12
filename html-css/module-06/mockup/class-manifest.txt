@@ -1,0 +1,35 @@
+masthead-wrapper
+  -> container
+    -> masthead
+      -> logo
+      -> nav
+        -> nav-item
+        -> nav-link
+
+services-wrapper
+  -> container, section, services
+    -> section-header
+      -> section-header-caption
+      -> section-header-title
+    -> services-list
+      -> services-list-item
+        -> service-post
+            -> service-post-name
+            -> service-post-text
+
+team-wrapper
+  -> container, section, team
+    -> section-header
+      -> section-header-caption
+      -> section-header-title
+      -> section-header-text
+    -> team-list
+      -> team-list-item
+        -> team-card
+          -> team-card-content
+            -> team-card-image
+            -> team-card-icons
+              -> team-card-icon
+          -> team-card-meta
+            -> team-card-name
+            -> team-card-pos
