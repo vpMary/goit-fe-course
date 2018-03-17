@@ -1,0 +1,26 @@
+masthead-wrapper
+  -> container
+    -> masthead
+      -> logo
+      -> nav
+        -> nav-item
+        -> nav-link
+  -> hero
+      -> hero-title
+      -> hero-subtitle
+      -> hero-btn
+
+partners-wrapper
+  -> container, section, partners
+    -> section-title
+    -> partner-list
+      -> partner-list-item
+        -> partner-card
+          -> partner-card-content
+            -> partner-card-image
+            -> partner-card-icons
+              -> partner-card-icon
+          -> partner-card-meta
+            -> partner-card-name
+            -> partner-card-pos
+    ->partner-btn
